@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="4">
+
+  <testsuite name="rockyMtnTest"
+    errors="0" failures="0" hostname="" id="" package="rockyMtnTest" skipped="0"
+    tests="4" time="50.32" timestamp="Thu, 27 Sep 2018 15:41:47 GMT">
+  
+    <testcase name="Sign in to account" classname="rockyMtnTest" time="13.63" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Search Item" classname="rockyMtnTest" time="6.916" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Add to cart" classname="rockyMtnTest" time="10.99" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Checkout" classname="rockyMtnTest" time="18.78" assertions="21">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

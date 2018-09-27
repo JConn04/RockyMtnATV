@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="rockyMtnTest"
+    errors="1" failures="0" hostname="" id="" package="rockyMtnTest" skipped="0"
+    tests="1" time="0.07800" timestamp="Wed, 26 Sep 2018 20:39:31 GMT">
+  
+    <testcase name="Checkout" classname="rockyMtnTest" time="0.07800" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Rocky Mtn Test / Checkout]:
+
+  Error: usaAnywayBtn was not found in &#34;rockyTest&#34;. Available elements: Search,searchBtn,Result,Result2,Result3,Item,Login,Username,Password,loginBtn,Result4,addCartBtn,cartBtn,addQuantity,minusQuantity,qtyField,Remove,cartEmpty,Popup,machine,machineType,Year,actualYear,Make,actualMake,Model,actualModel,Result5,Item2,Result6,Result7,checkoutBtn,Result8,Result9,firstName,lastName,address1,zipCode,City,State,shippingBtn,useAnywayBtn,paymentBtn,cardNum,cardMonth,cardYear,productQty
+    at getElement (C:\Users\PC\AppData\Roaming\npm\node_modules\nightwatch\lib\page-object\command-wrapper.js:13:13)
+    at Page.waitForElementVisible (C:\Users\PC\AppData\Roaming\npm\node_modules\nightwatch\lib\page-object\command-wrapper.js:81:32)
+    at module.exports (C:\Users\PC\Desktop\DevMtn\RockyMtnAutomation\test-assets\checkout.js:40:6)
+    at Checkout.testData.checkout.forEach.test (C:\Users\PC\Desktop\DevMtn\RockyMtnAutomation\tests\rockyMtnTest.js:45:9)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.Checkout (C:\Users\PC\Desktop\DevMtn\RockyMtnAutomation\tests\rockyMtnTest.js:44:27)
+    at Module.call (C:\Users\PC\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\PC\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\PC\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at C:\Users\PC\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
